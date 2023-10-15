@@ -73,7 +73,6 @@ class Bank
 		System.out.println("2. Show Record");
 		System.out.println("3. Deposit Money");
 		System.out.println("4. Withdraw Money");
-		System.out.println("5. Output Whole Data");
 		System.out.println("Enter your choice to continue");
 		int ch=S.nextInt();
 		switch(ch)
@@ -138,11 +137,6 @@ class Bank
 				System.out.println("Wrong Account Number");
 			}
 			break;
-		case 5:
-			for(i=0;i<size;i++)
-			{
-				B[i].showResult();
-			}
 		}
 		System.out.println("Choice to continue:=");
 		choice=S.next().charAt(0);
